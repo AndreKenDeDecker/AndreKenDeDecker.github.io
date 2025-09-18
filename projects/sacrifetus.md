@@ -6,7 +6,7 @@
 <!-- Embedded Vide -->
 <div class="video-wrapper">
   <iframe
-  src="https://www.youtube-nocookie.com/embed/watch?v=cg3uzhqKGgY"
+  src="https://www.youtube-nocookie.com/embed/cg3uzhqKGgY"
   title="Sacrifetus Video" frameborder="0" allow="accelerometer;
   autoplay;
   clipboard-write;
