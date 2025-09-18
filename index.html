@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Andre Ken De Decker Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <meta name="description" content="Andre Ken De Decker - Portfolio showcasing my projects.">
+    <meta name="keywords" content="Andre Ken De Decker, Portfolio, Game Developer, C++, C#">
+    <meta name="author" content="Andre Ken De Decker">
+
+    <meta property="og:title" content="Andre Ken De Decker Portfolio">
+    <meta property="og:description" content="Andre Ken De Decker - Portfolio showcasing projects.">
+    <meta property="og:url" content="https://AndreKenDeDecker.github.io/">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <!-- Sticky Top navigation bar -->
+    <nav id="top-nav">
+        <div class="nav-container">
+            <div id="nav-left" class="nav-name">Andre Ken De Decker</div>
+            <div id="nav-right" class="nav-buttons">
+                <button class="nav-btn active" data-target="about">About</button>
+                <button class="nav-btn" data-target="projects">Projects</button>
+                <button class="nav-btn" data-target="contact">Contact</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- About section -->
+        <section id="about" class="fullscreen-section video-bg">
+            <!--<video autoplay muted loop playsinline id="bg-video">-->
+                <!-- To do: add banner here -->
+                <!--<source src="assets/videos/banner.mp4" type="video/mp4">-->
+            <!--</video>-->
+            <div class="about-content">
+                <h1 class="about-name">Andre Ken De Decker</h1>
+                <p class="about-intro">I'm a <strong> Student Game Developer </strong> currently studying at DAE Howest. This page highlights the projects I've worked on.</p>
+                <p>Languages: [C++, C#] </p>
+                <p>Tools: [Unreal Engine, Unity, Blender, Perforce]</p>
+            </div>
+        </section>
+
+        <!-- Projects section -->
+        <section id="projects" class="section-spaced reveal">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <!-- Project cards will go here -->
+                    <div class="project-card" data-project="projects/sacrifetus.md">
+                        <!-- Make sure this path is correct -->
+                        <img src="assets/images/sacrifetus/SacrifetusIcon.gif" alt="SacrifetusIcon" />
+                        <div class="icon-overlay">
+                            <div class="icon-box">
+                                <!-- Add the icon for the tool you used -->
+                                <img src="assets/images/icons/CppLogo.svg.png" alt="C++" title="C++" />
+                            </div>
+                            <div class="icon-box">
+                                <img src="assets/images/icons/UnrealLogo.jpg" alt="Unreal" title="Unreal" />
+                            </div>
+                            <div class="icon-box">
+                                <img src="assets/images/icons/P4Logo.jpg" alt="Perforce" title="Perforce" />
+                            </div>
+                        </div>
+                        <h3>Sacrifetus</h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="fullscreen-section reveal">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:dedeckerken@gmail.com">dedeckerken@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/ken-de-decker-ab51532ab/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/ken-de-decker-ab51532ab/</a></p>
+                <!-- Add other contact links like GitHub, etc. -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Andre Ken De Decker</p>
+    </footer>
+
+    <!-- Modal Overlay -->
+    <div id="modal" class="hidden">
+        <div class="modal-content">
+            <button id="close-modal">✕</button>
+            <div id="project-content"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
