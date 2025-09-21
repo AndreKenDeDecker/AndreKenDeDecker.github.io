@@ -29,13 +29,20 @@ I was in a team of 5 members working as a programmer mostly tasked with the game
 
 ## Tools and Languages Used
 
-**[Tool, Unreal Engine, Perforce]**, **[Language, C++]**
+**Tool: Unreal Engine, Perforce**
+
+**Language: C++**
 
 ---
-
 ## What I Learned
 
 - Working in a team using Perforce for version control.
 - C++ coding in Unreal Engine.
 - Handling deadlines and updating our project scope accordingly.
 - Keeping track of tasks in a group using hacknplan and having weekly meetings to discuss progress and issues.
+
+---
+
+![Sacrifetus Main Menu](../assets/images/sacrifetus/SacrifetusMenu.png)
+![Sacrifetus Gameplay](../assets/images/sacrifetus/SacrifetusGameplay.jpg)
+![Sacrifetus Baby](../assets/images/sacrifetus/SacrifetusSacrificing.jpg)
