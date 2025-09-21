@@ -480,3 +480,26 @@ section h2 {
 .section-spaced {
     padding: 3rem 2rem;
 }
+
+/* Styling for links with an icon */
+.icon-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; /* space between icon and text */
+    background-color: #2a2a2a;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+    .icon-link:hover {
+        background-color: #4da3ff;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .icon-link img {
+        height: 20px; /* control the icon size */
+        width: auto;
+    }
