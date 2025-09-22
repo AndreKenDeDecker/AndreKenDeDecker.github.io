@@ -509,7 +509,7 @@ section h2 {
     align-items: center;
     gap: 8px; /* space between icon and text */
     background-color: #2a2a2a;
-    padding: 8px 300px 8px 12px;
+    padding: 8px 210px 8px 12px;
     border-radius: 6px;
     transition: background-color 0.3s ease;
     text-decoration: none;
@@ -524,6 +524,6 @@ section h2 {
     }
 
     #project-content .icon-link img {
-        height: 50px;
-        width: 50px;
+        height: 2.0cm;
+        width: auto;
     }
