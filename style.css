@@ -152,9 +152,9 @@ footer {
     }
 
     .project-card img {
-        width: 100%;
-        height: 110px;
-        object-fit: contain;
+        width: auto;
+        height: 150px;
+        object-fit: cover;
         border-bottom: 1px solid #4da3ff44;
     }
 
@@ -481,8 +481,8 @@ section h2 {
     padding: 3rem 2rem;
 }
 
-/* Styling for links with an icon */
-.icon-link {
+/* Styling for links with an icon inside the project modal */
+#project-content .icon-link {
     display: inline-flex;
     align-items: center;
     gap: 8px; /* space between icon and text */
@@ -492,15 +492,16 @@ section h2 {
     transition: background-color 0.3s ease;
     text-decoration: none;
     white-space: nowrap;
+    color: #eee; /* Set initial text color */
 }
 
-    .icon-link:hover {
+    #project-content .icon-link:hover {
         background-color: #4da3ff;
-        color: #fff;
+        color: #fff !important; /* Use !important to ensure override */
         text-decoration: none;
     }
 
-    .icon-link img {
-        height: 20px; /* control the icon size */
+    #project-content .icon-link img {
+        height: 10px; /* control the icon size */
         width: auto;
     }

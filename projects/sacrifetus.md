@@ -7,7 +7,7 @@
 <!-- Itch.io link --> 
 <a href="https://britth.itch.io/group19-game-projects" target="_blank" rel="noopener noreferrer" class="icon-link">
     <img src="../assets/images/icons/ItchioLogo.png" alt="itch.io icon">
-    <span>Play SacriFetus on itch.io</span>
+    Play SacriFetus on itch.io
 </a>
 
 <!-- Embedded Video -->
