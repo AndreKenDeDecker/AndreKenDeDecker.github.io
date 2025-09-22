@@ -127,9 +127,18 @@ footer {
 }
 
 /* Project grid */
+/*.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);*/ /* max 3 per row */
+    /*gap: 1.5rem;
+    margin-top: 1rem;
+    padding: 0 2rem;*/ /* added horizontal padding for breathing room */
+/*}*/
+
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* max 3 per row */
+    /* This creates responsive columns that are between 280px and 1fr wide */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
     margin-top: 1rem;
     padding: 0 2rem; /* added horizontal padding for breathing room */
@@ -160,7 +169,7 @@ footer {
 
     .project-card h3 {
         padding: 0.8rem;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         color: #4da3ff;
         margin: 0;
     }
@@ -481,27 +490,22 @@ section h2 {
     padding: 3rem 2rem;
 }
 
-/* Styling for links with an icon inside the project modal */
-#project-content .icon-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px; /* space between icon and text */
-    background-color: #2a2a2a;
-    padding: 8px 300px 8px 12px;
-    border-radius: 6px;
-    transition: background-color 0.3s ease;
-    text-decoration: none;
-    white-space: nowrap;
-    color: #eee; /* Set initial text color */
+/* Styles the icon placed next to a text link */
+.link-icon {
+    height: 1.2em; /* Makes the icon size relative to the text */
+    width: auto;
+    vertical-align: middle; /* Aligns the icon vertically with the text */
+    margin-right: 5px; /* Adds a small space between the icon and text */
 }
 
-    #project-content .icon-link:hover {
-        background-color: #4da3ff;
-        color: #fff !important; /* Use !important to ensure override */
-        text-decoration: none;
-    }
+/* Override color for specific section headers and their underlines */
+#projects h2,
+#contact h2 {
+    color: #fff;
+    text-shadow: none;
 
-    #project-content .icon-link img {
-        height: 50px;
-        width: 50px;
+    #projects h2::after,
+    #contact h2::after {
+        background: #fff;
+        box-shadow: none;
     }
