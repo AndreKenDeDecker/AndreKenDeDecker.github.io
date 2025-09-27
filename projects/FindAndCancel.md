@@ -1,8 +1,10 @@
 ![FindAndCancel Title](../assets/images/findAndCancel/FindAndCancelTitleLogo.png)
 
-> Find & Cancel is a first-person bomb defusing game. The player has to find active bombs and defuse them all before the time runs out. 
-> The game was made in Unreal Engine 5 for the course "game engine fundamentals" at DAE.
-> We got two keywords to work with and we had to make a game based on those words. Mine were "Find" and "Cancel/Destroy".
+> Find & Cancel is a first-person bomb defusing game. The player has to find active bombs and defuse them all before the time runs out.
+
+The game was made in Unreal Engine 5 for the course "game engine fundamentals" at DAE.
+We got two keywords to work with and we had to make a game based on those words. Mine were "Find" and "Cancel/Destroy".
+we had full creative control, but before we started we had to got our game proposal accepted.
 
 
 <!-- Itch.io link --> 
@@ -15,7 +17,7 @@
 <div class="video-wrapper">
   <iframe
   src="https://www.youtube-nocookie.com/embed/mI9YJYAaI5M"
-  title="Sacrifetus Video" frameborder="0" allow="accelerometer;
+  title="Find&Cancel Video" frameborder="0" allow="accelerometer;
   autoplay;
   clipboard-write;
   encrypted-media;

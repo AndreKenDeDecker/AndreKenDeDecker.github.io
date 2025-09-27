@@ -1,7 +1,11 @@
 ![Sacrifetus Logo](../assets/images/sacrifetus/SacrifetusLogo.gif)
 
 > SacriFetus is a co-op, hack-n-slash game about 2 cultist who want to summon their god by sacrificing babies.
-> The game was made in Unreal Engine 5 for the course "group projects" at DAE. We ultimately won 2nd place for art style.
+
+The game was made in Unreal Engine 5 for the course "group projects" at DAE.
+We were tasked to work on this game the whole semester, but we were limited to the time we had due to other courses.
+Everyone was expected to work 10 hours per week on the game. Leading to a total of about 110 hours per person.
+At the end it was a showcase of team effort and we ultimately won 2nd place for art style.
 
 
 <!-- Itch.io link --> 
