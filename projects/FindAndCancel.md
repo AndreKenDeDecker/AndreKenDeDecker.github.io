@@ -4,7 +4,7 @@
 
 The game was made in Unreal Engine 5 for the course "game engine fundamentals" at DAE.
 We got two keywords to work with and we had to make a game based on those words. Mine were "Find" and "Cancel/Destroy".
-we had full creative control, but before we started we had to got our game proposal accepted.
+We had full creative control, but before we started we had to got our game proposal accepted.
 
 
 <!-- Itch.io link --> 

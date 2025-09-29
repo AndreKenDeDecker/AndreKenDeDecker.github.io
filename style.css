@@ -524,6 +524,7 @@ section h2 {
     }
 
     #project-content .icon-link img {
-        height: 1.2cm;
-        width: 1.2cm;
+        height: 30px;
+        width: 30px;
+        object-fit: contain;
     }
