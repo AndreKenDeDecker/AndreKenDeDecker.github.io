@@ -10,7 +10,7 @@ This had the same creation pipeline as Find&Cancel and it was first game of the 
 
 <!-- Itch.io link --> 
 <a href="https://kennobobo.itch.io/shield-arise" target="_blank" rel="noopener noreferrer" class="icon-link">
-    <img src="../assets/images/icons/ItchioLogo.png" alt="itch.io icon" class = "icon-link img">
+    <img src="../assets/images/icons/ItchioLogo.png" alt="itch.io icon" >
     <span>Play Shield Arise on itch.io</span>
 </a>
 

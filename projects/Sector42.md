@@ -10,7 +10,7 @@ I ended up with Sector 42 as final result. As programmer I feel it was a worthwh
 <!-- Itch.io link --> 
 <a href="https://kennobobo.itch.io/sector-42" target="_blank" rel="noopener noreferrer" class="icon-link">
     <img src="../assets/images/icons/ItchioLogo.png" alt="itch.io icon">
-    <span>Download Sector42 on itch.io</span>
+    <span>Play Sector42 on itch.io</span>
 </a>
 
 <!-- Embedded Video -->
