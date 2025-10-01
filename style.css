@@ -499,7 +499,7 @@ section h2 {
 
 /* Add vertical spacing for the projects section */
 .section-spaced {
-    padding: 3rem 2rem;
+    padding: 3rem 2rem 1.5rem 2rem;
 }
 
 /* Styling for links with an icon inside the project modal */
@@ -532,7 +532,7 @@ section h2 {
 .profile-section {
     display: flex;
     justify-content: center;
-    padding: 1rem 0; /* Adds some space above and below the picture */
+    padding: 0 0 2rem 0;
 }
 
 .profile-picture {
@@ -542,4 +542,11 @@ section h2 {
     object-fit: cover; 
     border: 4px solid #4da3ff;
     box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+/* Override the large height for the contact section specifically */
+#contact.fullscreen-section {
+    min-height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
