@@ -478,7 +478,8 @@ section h2 {
     text-align: center; /* Center the heading text */
 }
 
-    #projects h2::after {
+    #projects h2::after,
+    #contact h2::after {
         left: 50%; /* Position the start of the line at the center */
         transform: translateX(-50%); /* Shift the line left by half its own width */
     }
