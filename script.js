@@ -70,9 +70,17 @@ document.addEventListener('DOMContentLoaded', () =>
     window.addEventListener('scroll', () => {
         const scrollPos = window.scrollY + window.innerHeight / 3;
         let current = 'about';
+
         for (const section of sections) {
-            if (scrollPos >= section.offsetTop) current = section.id;
+            if (scrollPos >= section.offsetTop) {
+                current = section.id;
+            }
         }
+        const atBottom = (window.innerHeight + window.scrollY) >= document.body.scrollHeight - 10;
+        if (atBottom) {
+            current = 'contact'; // Force the last section to be active
+        }
+
         navButtons.forEach(btn => {
             btn.classList.toggle('active', btn.getAttribute('data-target') === current);
         });
