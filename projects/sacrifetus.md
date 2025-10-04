@@ -33,17 +33,17 @@ At the end it was a showcase of team effort and we ultimately won 2nd place for 
 
 I was in a team of 5 members working as a programmer mostly tasked with the gameplay and implementing the character sprites.  
 
-- Player movement and Combat.
+- **Player movement and Combat**
 
 Player movement changes during gameplay making the combat harder when the player is carrying a baby or their fellow cultist. 
 We thought this would make it more tense when the players are trying to escape with a baby while being chased down by enemies.
 
-- Making the Enemy AI using Finite State Machine with states such as Wandering, Patrolling and Seeking.
+- **Making the Enemy AI using Finite State Machine with states such as Wandering, Patrolling and Seeking**
 
 We wanted to have the enemies be reactive to the players actions. Only making them aggressive when the players start attacking them first or when they kidnap a baby.
 This way we wanted to make the world feel more alive and not have the enemies just chase the players around all the time.
 
-- I also implemented the character sprite sheets that the artists have made and set up the logic for playing the correct animations. 
+- **Implementing the character sprite sheets that the artists have made and set up the logic for playing the correct animations** 
 
 It was a bit tricky at first, but I learned a lot about how to work with sprite sheets in Unreal Engine.
 We used a plugin called PaperZD that made our life easier by having a great sprite sheet to characters workflow.

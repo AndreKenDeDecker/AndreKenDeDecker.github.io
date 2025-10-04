@@ -30,13 +30,13 @@ We had full creative control, but before we started we had to got our game propo
 
 ## Game Mechanics
 
-- Two unique bombs with different ways to defuse them.
+- **Two unique bombs with different ways to defuse them**
 
 Code bomb: This bomb has to be defused by inputting the correct code. The codes for the bombs can be found on terminals spread around the world.
 
 Minigame bomb: The player has to play a game of "Simon Says" for this bomb to be defused. A random sequence of buttons will be played and the player has to copy it.
 
-- Dynamic difficulty/map
+- **Dynamic difficulty/map**
 
 The positions and amount of bombs placed into the map are modifiable by the player. Letting the players choose how hard they want the game to be.
 

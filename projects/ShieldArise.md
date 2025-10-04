@@ -31,13 +31,13 @@ This had the same creation pipeline as Find&Cancel and it was first game of the 
 
 ## Game Mechanics
 
-- Parrying combat
+- **Parrying combat**
 
 During combat the player can block any attack with their shield. When the player blocks just about when the enemy attack is about to hit they parry them. 
 With parrying you can stun enemies with melee attacks and deflect incoming arrows. Stunned enemies can't do anything and are weaker to attacks.
 
 
-- 3 different types of enemies
+- **3 different types of enemies**
 
 Basic melee enemy: They are the most common enemy type you'll fight in the arena. They are weak and slow, but are dangerous in numbers.
 
