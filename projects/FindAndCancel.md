@@ -2,9 +2,11 @@
 
 > Find & Cancel is a first-person bomb defusing game. The player has to find active bombs and defuse them all before the time runs out.
 
-The game was made in Unreal Engine 5 for the course "game engine fundamentals" at DAE.
-We got two keywords to work with and we had to make a game based on those words. Mine were "Find" and "Cancel/Destroy".
-We had full creative control, but before we started we had to got our game proposal accepted.
+For the "Game Engine Fundamentals" course at DAE, I developed a game in Unreal Engine based on two assigned keywords: "FindAndDestroy" and "Cancel".
+In the meantime I got this project I was also working on my Environments1 project "Sector42" in Unreal Engine.
+It gave me a strong foundational knowledge of the engine and allowed for a smooth transition from environment art to gameplay development.
+Drawing on a key lesson in scope management from my previous Unity project ("ShieldArise"), I thought more about downsizing my initial complex concept of a stealth game with patrolling NPCs.
+This allowed me to focus on creating an achievable core gameplay loop: a time-sensitive challenge where the player must find and defuse bombs.
 
 
 <!-- Itch.io link --> 
@@ -34,11 +36,11 @@ We had full creative control, but before we started we had to got our game propo
 
 Code bomb: This bomb has to be defused by inputting the correct code. The codes for the bombs can be found on terminals spread around the world.
 
-Minigame bomb: The player has to play a game of "Simon Says" for this bomb to be defused. A random sequence of buttons will be played and the player has to copy it.
+Minigame bomb: To defuse this bomb the player has to play a game of "Simon Says". A random sequence of buttons will be played and then the player has to corretly input it back.
 
 - **Dynamic difficulty/map**
 
-The positions and amount of bombs placed into the map are modifiable by the player. Letting the players choose how hard they want the game to be.
+The positions and amount of bombs placed into the map are modifiable by the player. Letting the players choose how difficult they want the game to be.
 
 ---
 

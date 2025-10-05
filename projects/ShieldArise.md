@@ -3,10 +3,11 @@
 > Shield Arise is a top down action game where you play as a shield bearer. Try to survive as long as you can inside the infinite arena.
 > So harness your parrying skills to swiftly defeat your enemies as they are stunned by your power!
 
-The game was made in Unity for the course "game engine fundamentals" at DAE.
-We got two keywords to work with and we had to make a game based on those words. Mine were "Shield" and "Arise".
-We had full creative control, but before we started we had to got our game proposal accepted.
-This had the same creation pipeline as Find&Cancel and it was first game of the two to be made for that course.
+For the "Game Engine Fundamentals" course at DAE, I developed a game in Unity based on two assigned keywords: "Shield" and "Arise".
+Although I had experimented with Unity before, this was my first opportunity to create a complete game from start to finish.
+My initial concept involved an explorable map, but I soon realized I had overscoped.
+I then shifted my focus to the core gameplay loop finishing the combat and parrying mechanics
+It was a fun experience and I learned a lot about working with Unity and C#.
 
 <!-- Itch.io link --> 
 <a href="https://kennobobo.itch.io/shield-arise" target="_blank" rel="noopener noreferrer" class="icon-link">

@@ -1,10 +1,11 @@
 ![Sector42 Title](../assets/images/sector42/Sector42Title.png)
 
-> Sector 42 is an Unreal environments showcase. Made during the course "Environments 1" with some help from fellow students.
+> Sector 42 is an Unreal Sci-fi environments showcase. It's made with only custom modular assets and materials/textures.
 
-We had to make a sci-fi environment using only our own modular assets and textures. As the goal was to work smart and use our time efficiently.
-We started out only with a block out and with the combination of feedback and multiple iterations. 
-I ended up with Sector 42 as final result. As programmer I feel it was a worthwhile experience to work closely with artists and learn about their workflow.
+For the "Environments 1" course, we were tasked with creating a sci-fi environment using exclusively custom-made modular assets and textures.
+The primary goal of this project was to learn how to work smart and efficient within a production pipeline.
+Starting with a basic blockout, the environment evolved through multiple iterations with the help of continuous feedback.
+As a programmer, this project was a great opportunity to collaborate closely with artists and understanding their workflow.
 
 
 <!-- Itch.io link --> 
