@@ -1,5 +1,4 @@
-document.addEventListener('DOMContentLoaded', () =>
-{
+document.addEventListener('DOMContentLoaded', () => {
     const projectCards = document.querySelectorAll('.project-card');
     const modal = document.getElementById('modal');
     const modalContent = document.getElementById('project-content');
@@ -20,11 +19,6 @@ document.addEventListener('DOMContentLoaded', () =>
                 modalContent.querySelectorAll('a[href*="itch.io"], a[href*="github.com"]').forEach(link => {
                     link.setAttribute('target', '_blank');
                     link.setAttribute('rel', 'noopener noreferrer');
-                });
-
-                // Add button style for itch/github links
-                modalContent.querySelectorAll('a[href*="itch.io"], a[href*="github.com"]').forEach(link => {
-                    link.classList.add('link-button');
                 });
 
                 modal.classList.remove('hidden');
@@ -76,6 +70,9 @@ document.addEventListener('DOMContentLoaded', () =>
                 current = section.id;
             }
         }
+
+        // This is a special case to handle the end of the page.
+        // It checks if the user has scrolled to the bottom.
         const atBottom = (window.innerHeight + window.scrollY) >= document.body.scrollHeight - 10;
         if (atBottom) {
             current = 'contact'; // Force the last section to be active
@@ -96,6 +93,4 @@ document.addEventListener('DOMContentLoaded', () =>
 
     // Trigger scroll event once on load to set active nav and reveal
     window.dispatchEvent(new Event('scroll'));
-
-
 });

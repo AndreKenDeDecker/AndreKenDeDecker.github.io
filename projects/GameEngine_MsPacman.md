@@ -10,11 +10,11 @@ I got the classic pick of Ms.Pacman and it was my job to implement all the game 
 It was a challenging but rewarding experience that taught me a lot about engine making and C++ programming.
 
 <!-- Project link --> 
-**[Project link on Github](https://github.com/KennoRat/Prog4_EngineExam_MissPacman.git)**
+**Project link on Github: (https://github.com/KennoRat/Prog4_EngineExam_MissPacman.git)**
 <!-- Book links -->
-**[Book link "Game Programming Patterns"](https://gameprogrammingpatterns.com)**
+**Book link "Game Programming Patterns": (https://gameprogrammingpatterns.com)**
 
-**[Book link "Beautiful C++"](https://ptgmedia.pearsoncmg.com/images/9780137647842/samplepages/9780137647842_Sample.pdf)**
+**Book link "Beautiful C++": (https://ptgmedia.pearsoncmg.com/images/9780137647842/samplepages/9780137647842_Sample.pdf)**
 
 <!-- Embedded Video -->
 <div class="video-wrapper">
