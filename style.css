@@ -126,11 +126,12 @@ footer {
 
 /* Project grid */
 .project-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* max 4 per row */
-    gap: 1.5rem;
-    margin-top: 1rem;
-    padding: 0 2rem;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 1.5rem;
+margin-top: 1rem;
+padding: 0 2rem;
 }
 
 /*.project-grid {
@@ -152,6 +153,7 @@ footer {
     text-align: center;
     padding-bottom: 0.5rem; /* reduced padding for bigger image */
     position: relative; /* needed for icon overlay positioning */
+    width: 300px;
 }
 
     .project-card:hover {
